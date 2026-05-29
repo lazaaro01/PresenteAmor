@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    font-size: 18px;
+}
+
+@media (max-width: 768px){
+body{
+background-image: url("FotoBjBR.jpeg");
+max-width: 768px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+margin: 0;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 300px;
+}
+.polaroid{
+    background: white;
+    padding: 10px 2px 40px 2px;
+    width: 150px;
+    height: 80px;
+    box-shadow: 0 8px 20px;
+    border-radius: 4px;
+    transition: 0.3s;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.foto{
+    width: 150px;
+    height: 110px;
+    background-image: url("RaquelQueiroz.jpeg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+.polaroid1{
+    background: white;
+    padding: 10px 2px 40px 2px;
+    width: 150px;
+    height: 80px;
+    box-shadow: 0 8px 20px;
+    border-radius: 4px;
+    transition: 0.3s;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.foto1{
+    width: 150px;
+    height: 110px;
+    background-image: url("RQ.jpeg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+.polaroid2{
+    background: white;
+    padding: 10px 2px 40px 2px;
+    width: 150px;
+    height: 80px;
+    box-shadow: 0 8px 20px;
+    border-radius: 4px;
+    transition: 0.3s;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.foto2{
+    width: 150px;
+    height: 110px;
+    background-image: url("RQRoxo.jpeg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.polaroid3{
+    background: white;
+    padding: 10px 2px 40px 2px;
+    width: 150px;
+    height: 80px;
+    box-shadow: 0 8px 20px;
+    border-radius: 4px;
+    transition: 0.3s;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.foto3{
+    width: 150px;
+    height: 110px;
+    background-image: url("FotoTemplo.jpeg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+.polaroid4{
+    background: white;
+    padding: 10px 2px 40px 2px;
+    width: 150px;
+    height: 80px;
+    box-shadow: 0 8px 20px;
+    border-radius: 4px;
+    transition: 0.3s;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.foto4{
+    width: 150px;
+    height: 110px;
+    background-image: url("FotoBRLado.jpeg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+.polaroid5{
+    background: white;
+    padding: 10px 2px 40px 2px;
+    width: 150px;
+    height: 80px;
+    box-shadow: 0 8px 20px;
+    border-radius: 4px;
+    transition: 0.3s;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.foto5{
+    width: 150px;
+    height: 110px;
+    background-image: url("FotoBjBochechaBR.jpeg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 10px;
+}
+.Voltar{
+    background-position: center;
+    background-size: 80%;
+    width: 80px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+}
